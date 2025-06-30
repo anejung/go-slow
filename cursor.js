@@ -1,4 +1,3 @@
-////haiahia
 function startFakeCursor() {
   console.log('[FakeCursor] script started');
 

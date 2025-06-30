@@ -1,5 +1,5 @@
 // --- CONFIG ---
-const TARGET_RATE = 0.0007;        // 0.5× speed
+const TARGET_RATE = 0.5;        // 0.5× speed
 // ---------------
 
 // force‑set a video’s speed
