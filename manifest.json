@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Slow Fake Cursor",
+  "version": "1.1",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["cursor.js", "scroll.js", "videoSlow.js"], 
+      "css": ["cursor.css"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+/* Hide every pointer cursor (including Tailwind's .cursor-pointer) */
+.cursor-pointer,
+* {                         /* everything… */
+  cursor: none !important;  /* …gets no visible cursor */
+}
+
+/* If you only want to hide pointer‑style cursors, use the next rule instead of * { … } */
+a, button, [role="button"], input[type="button"], input[type="submit"] {
+  cursor: none !important;
+}
